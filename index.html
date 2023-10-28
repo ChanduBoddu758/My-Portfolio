@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Chandu- Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9a80c502c7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Chandu's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#firstSection">Home</a></li>
+                    <li><a href="#about">About</a></li>
+
+                     <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact me</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="firstSection">
+            <div class="leftSection">
+                Hi, My name is
+                <span class="purple">Chandu</span> 
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                
+                
+            </div>
+            <div class="rightSection">
+               <img src="port.png" alt="">
+            </div>
+
+        </section>
+
+        <!-- ------------about------------ -->
+        <section class="secondSection">
+            <div id="about">
+                <div class="container">
+                    <div class="row">
+                      <div class="about-col-1">
+                        <img src="port.png" alt="">
+                      </div>
+                      <div class="about-col-2">
+                        <h1 class="subTitle">About Me</h1>
+                        <p>Hey there, I'm Sriram Chandu, a multi-faceted professional with a passion from 
+                             translating ideas into innovative digital solutions.
+                        With a strong foundation in web development, data analysis, and software development</p>
+                        
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li>
+                                    <span>Web Development</span><br>
+                                </li>
+                                <li>
+                                    <span>Software Development</span><br>
+                                </li>
+                                <li>
+                                    <span>Data Analyst</span><br>
+                                </li>
+                            </ul>
+                        </div>
+                       
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ------------Services------------ -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-brands fa-html5"></i>
+                      
+                        <h2>Web Development</h2>
+                    <p>Web development involves creating and maintaining websites and web applications using programming languages,
+                         frameworks, and tools to deliver engaging online experiences.</p>
+                         <a href="">Learn more</a>
+                    </div>
+                    
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Software Development</h2>
+                    <p>Software development encompasses the process of designing, coding, testing, and maintaining computer programs to solve specific problems or meet user needs, driving technological innovation across various industries.</p>
+                    <a href="">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-database"></i>
+                        <h2>Data Analyst</h2>
+                    <p>A data analyst interprets and analyzes complex data sets to extract valuable insights, aiding businesses in informed decision-making and strategy formulation through statistical techniques and visualization tools.</p>
+                    <a href="">Learn more</a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <!-- -------------Projects---------------- -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    
+                       <div>
+                       
+                        <h2>Automatic-Attendance</h2>
+                        <p>User can get attendance through pictures or the live camera and User can even get the attendance sheet through mail to the required one from his/her end after
+                            completing the process.Libraries used - Face recognition, OpenCV, numpy,SMTP.</p>
+                            
+                            
+                             <a href="https://github.com/ChanduBoddu758/Automatic-Attendance">Learn more</a>
+                       </div>
+                       <div>
+                        
+                        <h2>Portfolio</h2>
+                        <p>Portfolio project is a showcase of my best work, highlighting my skills and achievements in web development and design.</p>
+                             <a href="https://github.com/ChanduBoddu758/Portfolio">Learn more</a>
+                       </div>
+                    
+                </div>
+            </div>
+        </div>
+
+
+        <!-- -------------Contact---------------- -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-brands fa-telegram"></i>chanduboddu758@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>7993128084</p>
+                        <div class="social-icons">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/sri-ram-chandu/"><i class="fa-brands fa-linkedin"></i></a>
+                           
+                        </div>
+                        <a href="https://drive.google.com/file/d/1-nNQzQ7BKFOPQjAR87d-AtydtPcHEHgU/view?usp=drivesdk" class="btn btn2" target="_blank">Download CV</a>
+                    </div>
+                    
+                    <div class="content-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message"  rows="6" placeholder="Your Mesage"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span  id="msg"></span>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+        <!-- -------------Fotter---------------- -->
+
+        <div class="copyright">
+            <p>Copyright © Chandu</p>
+        </div>
+
+
+
+        
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer.', 'Software developer.', 'Data Analyst.'],
+          typeSpeed: 50,
+        });
+      </script>
+      </script>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for (tablink of tablinks){
+                tablink.classlist.remove("active-link");
+            }
+            for (tabcontent of tabcontents){
+                tabcontent.classlist.remove("active-tab");
+            }
+            event.currentTarget.classlist.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+            
+        }
+    </script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzh-1m-GUuxzWuMnJbfTbI8S-t2IHsM9X3k9MMiBPUtKerLp6F0r2-eZxwu8bqfnCR8/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
